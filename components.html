@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Components Library | Rajat Yadav</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -28,21 +29,17 @@
 
     <h2>@container</h2>
 
-    <h3 class="container fluid-container">Fluid container</h3>
-    <p>this is a fluid conatiner and will go till the end of the page.</p>
+    <h3>Fluid container</h3>
+    <div class="container fluid-container">this is a fluid conatiner and will go till the end of the page.</div>
 
-    <h3 class="container center-conatiner">Center container</h3>
-    <p>Thi is a center conatiner and will align in center of the page.</p>
+    <h3>Center container</h3>
+    <div class="container center-container">Thi is a center conatiner and will align in center of the page.</div>
 
     <hr>
 
     <h2>@links</h2>
-    <ul class="lists"></ul>
-    <li class="link primary-link"><a href="/">Primary link</a>
-    </li>
-    <li class="link secondary-link"><a href="/">Secondary link</a>
-    </li>
-    </ul>
+    <a class="link primary-link" href="/">Primary link</a>
+    <a class="link secondary-link" href="/">Secondary link</a>
 
     <hr>
 
@@ -74,7 +71,7 @@
 
     <nav class="navigation">
         <div class="nav-brand">i am brand</div>
-        <ul class="lists-non-bullets">
+        <ul class="lists-non-bullets nav-buttons">
             <li class="list-inline-items"><a class="link link-active" href="/">home</a>
             </li>
             <li class="list-inline-items"><a class="link" href="/">products</a>
@@ -89,23 +86,23 @@
     <h2>@header</h2>
 
     <header class="hero">
-        <img class="hero-image" src="" />
-        <p class="hero-header">Rajat Yadav <strong>The Web Developer</strong></p>
+        <img class="hero-image" src="images/Web-Developer.svg" />
+        <p class="hero-header">Rajat Yadav <strong class="heading">The Web Developer</strong></p>
     </header>
 
     <hr>
 
     <h2>@section</h2>
     <section class="section">
-        <div class="conatiner container-centre">
+        <div class="container center-container">
             <h3>white screen</h3>
             <p>this will have white background.</p>
         </div>
     </section>
 
-    <section class="offwhite-section">
-        <div class="conatiner container-centre">
-            <h3>off-white screen</h3>
+    <section class="section offwhite">
+        <div class="container center-container">
+            <h3>off-white section</h3>
             <p>this will have grey background. will go to end end with little margin on both sides.</p>
         </div>
     </section>
@@ -114,11 +111,11 @@
 
     <h2>@footer</h2>
     <footer class="footer">
-        <p class="footer-header"></p>
+        <p class="footer-heading">Headings inside footer</p>
         <ul class="social-links lists-non-bullets">
-            <li class="list-inline-items"><a class="links">social 1</a></li>
-            <li class="list-inline-items"><a class="links">social 2</a></li>
-            <li class="list-inline-items"><a class="links">social 3</a></li>
+            <li class="list-inline-items"><a class="link" href="/">social 1</a></li>
+            <li class="list-inline-items"><a class="link" href="/">social 2</a></li>
+            <li class="list-inline-items"><a class="link" href="/">social 3</a></li>
         </ul>
     </footer>
 
