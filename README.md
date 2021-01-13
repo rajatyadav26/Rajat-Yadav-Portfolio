@@ -1,2 +1,2 @@
 # Rajat-Yadav-Portfolio
- This is my portfolio showcasing different projects and blogs that I have made using different technologies.
+ This is my portfolio to showcase the different projects that i have made using different technologies. 
