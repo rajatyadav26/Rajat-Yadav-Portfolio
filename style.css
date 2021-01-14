@@ -2,12 +2,13 @@
      :root {
         --primary-color: #10B981;
         --dark-grey: #4B5563;
-        --off-white: #D1D5DB;
+        --off-white: #F3F4F6;
     }
     
     body {
         font-family: 'Raleway', sans-serif;
         margin: 0rem;
+        font-size: large;
     }
     
     hr {
@@ -45,11 +46,16 @@
     
     .lists-non-bullets {
         list-style: none;
+        padding: 0rem;
     }
     
     .list-inline-items {
         display: inline;
         padding-bottom: 0.5rem;
+    }
+    
+    .lists-non-bullets .center-container {
+        padding: 2.5rem 1rem 2.5rem 1rem;
     }
     /** navigation **/
     
@@ -136,4 +142,9 @@
     
     .footer ul {
         padding-inline-start: 0px;
+    }
+    
+    .footer .contact-link {
+        font-size: large;
+        color: white;
     }
